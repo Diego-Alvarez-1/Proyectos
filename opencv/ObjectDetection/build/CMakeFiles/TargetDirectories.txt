@@ -1,0 +1,3 @@
+C:/openCV/ObjectDetection/build/CMakeFiles/ObjectDetection.dir
+C:/openCV/ObjectDetection/build/CMakeFiles/ALL_BUILD.dir
+C:/openCV/ObjectDetection/build/CMakeFiles/ZERO_CHECK.dir

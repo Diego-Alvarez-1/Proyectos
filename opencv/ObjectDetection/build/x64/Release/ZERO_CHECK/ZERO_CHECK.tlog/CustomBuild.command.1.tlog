@@ -1,0 +1,10 @@
+^C:\OPENCV\OBJECTDETECTION\BUILD\CMAKEFILES\A6A865CDAD2CA9375E5DBE4124CBC165\GENERATE.STAMP.RULE
+setlocal
+C:\Users\ALESSANDRO\Downloads\cmake-4.1.1-windows-x86_64\bin\cmake.exe -SC:/openCV/ObjectDetection -BC:/openCV/ObjectDetection/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/openCV/ObjectDetection/build/ObjectDetection.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
